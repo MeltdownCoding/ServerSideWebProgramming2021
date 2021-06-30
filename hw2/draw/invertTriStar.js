@@ -1,4 +1,5 @@
-let draw = function () {
+let draw = function () 
+{
     let a = '';
     let n = 5;
     let m = (n - 1);
