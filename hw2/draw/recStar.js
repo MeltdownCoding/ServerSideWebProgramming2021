@@ -1,4 +1,5 @@
-let draw = function () {
+let draw = function () 
+{
   let star = "";
   let times = 5
   for (let i = 0; i < times; i++) {
