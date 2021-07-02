@@ -1,6 +1,5 @@
 let register = require('./register');
 
-
 let studentArray = []
 let student = {
     "ID": 1234,
