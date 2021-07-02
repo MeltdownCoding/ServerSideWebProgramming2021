@@ -1,5 +1,5 @@
 let register = function () {
-    let user = [
+    let usera = [
         {
             "ID": 1234,
             "Fullname": "AAA BBBB",
