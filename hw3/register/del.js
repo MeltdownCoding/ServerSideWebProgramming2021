@@ -1,45 +1,5 @@
-let register = function () {
-    let user = [
-        {
-            "ID": 1234,
-            "Fullname": "AAA BBBB",
-            "Curriculum": "IT"
-        }
-    ]
-
-    let userb = {
-        "ID": 1234,
-        "Fullname": "AAA BBBB",
-        "Curriculum": "IT"
-    }
-
-    let userc = {
-        "ID": 1234,
-        "Fullname": "AAA BBBB",
-        "Curriculum": "IT"
-    }
-
-    let userd = {
-        "ID": 1234,
-        "Fullname": "AAA BBBB",
-        "Curriculum": "IT"
-    }
-
-    let usere = {
-        "ID": 1234,
-        "Fullname": "AAA BBBB",
-        "Curriculum": "IT"
-    }
-    user.push(userb)
-    user.push(userc)
-    user.push(userd)
-    user.push(usere)
-
-    delete user.splice(3, 2)
-
-    for (let index = 0; index < user.length; index++) {
-        console.log('{ ID: ' + user[index].ID + ' Fullname ' + user[index].Fullname + ' Curriculum ' + user[index].Curriculum + ' }')
-
-    }
+let del = function (studentArray) {
+   delete studentArray.splice(studentArray.length.length-1,1)
+   return studentArray;
 }
-module.exports = register;
+module.exports =del;
